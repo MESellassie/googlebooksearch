@@ -1,0 +1,13 @@
+.page-footer{
+    width: 100%;
+    height: 5%;
+    background: rgb(17, 17, 17);
+    /* position: fixed; */
+    /* bottom: 0; */
+    text-align: center;
+    color: white;
+    /* padding-top: 12px;
+    border-top: 8px solid #4aaaa5; */
+    clear: both;
+    /* margin-top: 185px;     */
+}

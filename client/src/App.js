@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Container from "./components/Container";
-import Jumbotron from './components/Jumbotron';
+import BookSearch from "./pages/BookSearch";
+import Footer from "./components/Footer";
 
 import './App.css';
 
@@ -11,9 +11,10 @@ function App() {
 
     <Router>
       <Navbar/>
-      <Container>
-      <Jumbotron></Jumbotron>
-      </Container>
+      <Switch>
+        <Route exact path="/" component={BookSearch}/>
+      </Switch>
+      <Footer/>
     </Router>
 
   );
