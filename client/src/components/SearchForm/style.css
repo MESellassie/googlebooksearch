@@ -1,3 +1,13 @@
-.submitBtn {
+.submitBtnDiv {
     text-align: center;
+}
+
+.submitBtnDiv:hover {
+    transform: scale(1.1);
+    transition: all ease 900ms;
+}
+
+.journeyTitle {
+    text-align: center;
+    font-family: fantasy;
 }

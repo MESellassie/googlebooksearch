@@ -5,7 +5,7 @@ const SearchForm = props => {
     return (
         <form>
             <div className="form-group">
-                <label className="title"><h3>Begin Your Imagination Journey</h3></label>
+                <div className="journeyTitle"><h3>Begin Your Imagination Journey</h3></div>
                 <br/>
                 <input className="col-12 form-control"
                     value={props.search}
@@ -15,9 +15,11 @@ const SearchForm = props => {
                     onChange={props.handleInputChange}
                 />
             </div>
-            <button type="submit" className="submitBtn btn btn-info" onClick={props.handleFormSubmit}>
+            <div className="submitBtnDiv">
+            <button type="submit" className="submitBtn btn btn-info shadow" onClick={props.handleFormSubmit}>
                 Submit
             </button>
+            </div>
         </form>
     )
 }
