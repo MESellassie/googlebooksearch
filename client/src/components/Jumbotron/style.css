@@ -1,0 +1,10 @@
+.jumbotron {
+    height: 650px;
+    width: 100%;
+    background-image: url("../../assets/boyReading.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
