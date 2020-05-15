@@ -11,7 +11,7 @@ class SaveBook extends Component {
 
     //when this component mounts, grab all books that were save to the database 
     componentDidMount() {
-        API.getBooks()
+        API.getAllBooks()
             .then(res => this.setState({ savedBooks: res.data }))
             .catch(err => console.log(err))
     }
@@ -37,4 +37,4 @@ class SaveBook extends Component {
 
 
 
-export default SaveBook 
+export default SaveBook;

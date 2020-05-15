@@ -24,13 +24,13 @@ const SearchResult = props => {
                                         <Col size="2" className="bookImage">
                                             <img src={book.image} alt={book.title} />
                                         </Col>
-                                        <Col size="1" className="emptyCol"/>
-                                        <Col size="9" className="bookInfo">
+                                        <br/>
+                                        <Col className="bookInfo">
                                             <Row>
                                                 <h3 className="bookTitle">{book.title}</h3>
                                             </Row>
                                             <Row>
-                                                <h4 className="bookAuthor">{book.author}</h4>
+                                                <p className="bookAuthor">{book.author}</p>
                                             </Row>
                                             <Row>
                                                 <p className="bookDescription">{book.description}</p>
